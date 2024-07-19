@@ -4,13 +4,13 @@
       "body": [
         "const mongoose = require('mongoose');",
         "",
-        "const ModelNameSchema = new mongoose.Schema({",
+        "const ${1:ModelName}Schema = new mongoose.Schema({",
         "  $1",
         "});",
         "",
-        "const ModelName = mongoose.model('ModelName', ModelNameSchema);",
+        "const ${1:ModelName} = mongoose.model('ModelName', ${1:ModelName}Schema);",
         "",
-        "module.exports = ModelName;"
+        "module.exports = ${1:ModelName};"
       ],
       "description": "Creates a Mongoose schema and model for ModelName"
     },
