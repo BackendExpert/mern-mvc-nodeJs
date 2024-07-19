@@ -3,7 +3,7 @@
   "displayName": "JKMERN-MVC-nodeJS",
   "description": "Snippets for MERN MVC NodeJS Development",
   "publisher": "JehanKandy",
-  "version": "1.0.0-alpha2s",
+  "version": "1.0.0-alpha2",
   "engines": {
     "vscode": "^1.87.0"
   },
