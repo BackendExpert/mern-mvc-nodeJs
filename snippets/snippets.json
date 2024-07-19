@@ -18,11 +18,11 @@
     "Controller Definition": {
       "prefix": "defaultController",
       "body": [
-        "const defaultController = {",
+        "const ${1:ControllerName} = {",
         "  ",
         "};",
         "",
-        "module.exports = defaultController;"
+        "module.exports = ${1:ControllerName};"
       ],
       "description": "Creates a basic controller definition"
     },
@@ -44,7 +44,7 @@
       "body": [
         "${1:MethodName}: async (req, res) => {",
         "    try {",
-        "        $1",
+        "        ",
         "    } catch (err) {",
         "        console.log(err);",
         "        res.status(500).send('Server Error');",
