@@ -1,8 +1,8 @@
-# VS Code Extensions for MVC NodeJS Development
+# VS Code Extension for MVC NodeJS Development
 
 ## About
 
-- This VScode Extensions works with NodeJS MVC
+- This VScode Extension works with NodeJS MVC
 
 ## How to Use
 
@@ -21,5 +21,22 @@
 - `defaultMethod`
 
 - and Some Updated features will be added in Future Releases
+
+
+## Releases
+
+### v1.0.0 - 19 July 2024
+
+- 1st Major  Release
+- Extension added to VScode MarketPlace
+
+### v1.0.0-alpha2
+
+- Update the Extension
+- added some features
+
+### v1.0.0-alpha1
+
+- Update the Extension
 
 
