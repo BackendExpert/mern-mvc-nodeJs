@@ -1,6 +1,6 @@
 {
-  "name": "jk-mern-mvc-nodejs",
-  "displayName": "JKMERN-MVC-nodeJS",
+  "name": "mvc-nodejs",
+  "displayName": "MVC Creater for NodeJS",
   "description": "Snippets for MERN MVC NodeJS Development",
   "publisher": "JehanKandy",
   "version": "1.0.0-alpha2",
