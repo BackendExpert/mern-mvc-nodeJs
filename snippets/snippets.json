@@ -42,7 +42,7 @@
     "Default Async Method": {
       "prefix": "defaultMethod",
       "body": [
-        "DefaultMethod: async (req, res) => {",
+        "${1:MethodName}: async (req, res) => {",
         "    try {",
         "        $1",
         "    } catch (err) {",
