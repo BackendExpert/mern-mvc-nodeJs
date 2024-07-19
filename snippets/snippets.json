@@ -1,6 +1,6 @@
 {
     "Mongoose Model": {
-      "prefix": "mongooseModel",
+      "prefix": "defaultModel",
       "body": [
         "const mongoose = require('mongoose');",
         "",
