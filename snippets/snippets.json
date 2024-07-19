@@ -1,16 +1,16 @@
 {
     "Mongoose Model": {
-      "prefix": "mongooseModel",
+      "prefix": "defaultModel",
       "body": [
         "const mongoose = require('mongoose');",
         "",
-        "const ModelNameSchema = new mongoose.Schema({",
-        "  $1",
+        "const ${1:ModelName}Schema = new mongoose.Schema({",
+        "",
         "});",
         "",
-        "const ModelName = mongoose.model('ModelName', ModelNameSchema);",
+        "const ${1:ModelName} = mongoose.model('ModelName', ${1:ModelName}Schema);",
         "",
-        "module.exports = ModelName;"
+        "module.exports = ${1:ModelName};"
       ],
       "description": "Creates a Mongoose schema and model for ModelName"
     },
@@ -18,11 +18,11 @@
     "Controller Definition": {
       "prefix": "defaultController",
       "body": [
-        "const defaultController = {",
-        "  ",
+        "const ${1:ControllerName} = {",
+        "",
         "};",
         "",
-        "module.exports = defaultController;"
+        "module.exports = ${1:ControllerName};"
       ],
       "description": "Creates a basic controller definition"
     },
@@ -42,9 +42,9 @@
     "Default Async Method": {
       "prefix": "defaultMethod",
       "body": [
-        "DefaultMethod: async (req, res) => {",
+        "${1:MethodName}: async (req, res) => {",
         "    try {",
-        "        $1",
+        "",
         "    } catch (err) {",
         "        console.log(err);",
         "        res.status(500).send('Server Error');",
