@@ -6,7 +6,7 @@
   "version": "1.0.0-alpha2",
   "icon": "Icon.png",
   "engines": {
-    "vscode": "^1.87.0"
+    "vscode": "^1.57.0"
   },
   "repository": {
     "type": "git",
