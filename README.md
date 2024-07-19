@@ -1,1 +1,42 @@
-# VS COde Extension for MERN Development
+# VS Code Extension for MVC NodeJS Development
+
+## About
+
+- This VScode Extension works with NodeJS MVC
+
+## How to Use
+
+- Snippets
+
+- use following Snippets,
+- when you start typing the Snippets you can see suggestion on vscode 
+- select current suggestion and press `Tab` button
+- then edit the code according to your need
+
+- Snippets are following
+
+- `defaultModel`
+- `defaultController`
+- `defaultRoute`
+- `defaultMethod`
+
+- and Some Updated features will be added in Future Releases
+
+
+## Releases
+
+### v1.0.0 - 19 July 2024
+
+- 1st Major  Release
+- Extension added to VScode MarketPlace
+
+### v1.0.0-alpha2
+
+- Update the Extension
+- added some features
+
+### v1.0.0-alpha1
+
+- Update the Extension
+
+
