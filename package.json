@@ -3,7 +3,7 @@
   "displayName": "MVC Creater for NodeJS",
   "description": "Snippets for MERN MVC NodeJS Development",
   "publisher": "JehanKandy",
-  "version": "1.0.0-alpha2",
+  "version": "1.0.0",
   "icon": "Icon.png",
   "engines": {
     "vscode": "^1.57.0"
