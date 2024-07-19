@@ -15,19 +15,27 @@
       "description": "Creates a Mongoose schema and model for ModelName"
     },
 
-    "Mongoose Controller": {
-      "prefix": "mongooseEducationSchema",
+    "Controller Definition": {
+      "prefix": "defaultController",
       "body": [
-        "const mongoose = require('mongoose');",
+        "const defaultController = {",
+        "  ",
+        "};",
         "",
-        "const ModelNameSchema = new mongoose.Schema({",
-        "  $1",
-        "});",
-        "",
-        "const ModelName = mongoose.model('ModelName', ModelNameSchema);",
-        "",
-        "module.exports = ModelName;"
+        "module.exports = defaultController;"
       ],
-      "description": "Creates a Mongoose schema and model for ModelName"
+      "description": "Creates a basic controller definition"
+    },
+
+    "Express Router": {
+      "prefix": "defaultRoute",
+      "body": [
+        "const express = require('express');",
+        "",
+        "const router = express.Router();",
+        "",
+        "module.exports = router;"
+      ],
+      "description": "Creates a basic Express router"
     }
 }
