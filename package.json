@@ -1,11 +1,11 @@
 {
-  "name": "mern-mvc-nodejs",
-  "displayName": "MERN-MVC-nodeJS",
+  "name": "jk-mern-mvc-nodejs",
+  "displayName": "JKMERN-MVC-nodeJS",
   "description": "Snippets for MERN MVC NodeJS Development",
   "publisher": "JehanKandy",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.91.0"
+    "vscode": "^1.87.0"
   },
   "repository": {
     "type": "git",

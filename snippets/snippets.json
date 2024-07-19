@@ -1,17 +1,33 @@
 {
-    "Mongoose Education Schema": {
+    "Mongoose Model": {
+      "prefix": "mongooseModel",
+      "body": [
+        "const mongoose = require('mongoose');",
+        "",
+        "const ModelNameSchema = new mongoose.Schema({",
+        "  $1",
+        "});",
+        "",
+        "const ModelName = mongoose.model('ModelName', ModelNameSchema);",
+        "",
+        "module.exports = ModelName;"
+      ],
+      "description": "Creates a Mongoose schema and model for ModelName"
+    },
+
+    "Mongoose Controller": {
       "prefix": "mongooseEducationSchema",
       "body": [
         "const mongoose = require('mongoose');",
         "",
-        "const EducationSchema = new mongoose.Schema({",
+        "const ModelNameSchema = new mongoose.Schema({",
         "  $1",
         "});",
         "",
-        "const Education = mongoose.model('Education', EducationSchema);",
+        "const ModelName = mongoose.model('ModelName', ModelNameSchema);",
         "",
-        "module.exports = Education;"
+        "module.exports = ModelName;"
       ],
-      "description": "Creates a Mongoose schema and model for Education"
+      "description": "Creates a Mongoose schema and model for ModelName"
     }
-  }
+}
