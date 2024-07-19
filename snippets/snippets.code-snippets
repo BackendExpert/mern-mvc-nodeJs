@@ -1,1 +1,17 @@
-{}
+{
+    "Mongoose Education Schema": {
+      "prefix": "mongooseEducationSchema",
+      "body": [
+        "const mongoose = require('mongoose');",
+        "",
+        "const EducationSchema = new mongoose.Schema({",
+        "  $1",
+        "});",
+        "",
+        "const Education = mongoose.model('Education', EducationSchema);",
+        "",
+        "module.exports = Education;"
+      ],
+      "description": "Creates a Mongoose schema and model for Education"
+    }
+  }
