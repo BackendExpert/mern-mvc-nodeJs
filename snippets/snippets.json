@@ -5,7 +5,7 @@
         "const mongoose = require('mongoose');",
         "",
         "const ${1:ModelName}Schema = new mongoose.Schema({",
-        "  $1",
+        "",
         "});",
         "",
         "const ${1:ModelName} = mongoose.model('ModelName', ${1:ModelName}Schema);",
@@ -19,7 +19,7 @@
       "prefix": "defaultController",
       "body": [
         "const ${1:ControllerName} = {",
-        "  ",
+        "",
         "};",
         "",
         "module.exports = ${1:ControllerName};"
@@ -44,7 +44,7 @@
       "body": [
         "${1:MethodName}: async (req, res) => {",
         "    try {",
-        "        ",
+        "",
         "    } catch (err) {",
         "        console.log(err);",
         "        res.status(500).send('Server Error');",
