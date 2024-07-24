@@ -1,9 +1,9 @@
 {
-  "name": "mvc-nodejs",
+  "name": "mern-development",
   "displayName": "MVC Creater for NodeJS",
   "description": "Snippets for MERN MVC NodeJS Development",
   "publisher": "JehanKandy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "icon": "Icon.png",
   "engines": {
     "vscode": "^1.57.0"
