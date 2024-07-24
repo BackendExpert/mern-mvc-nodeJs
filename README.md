@@ -3,6 +3,7 @@
 ## About
 
 - This VScode Extension works with NodeJS MVC
+- now this VS Code Extension works with ReactJS also
 
 ## How to Use
 
@@ -15,15 +16,27 @@
 
 - Snippets are following
 
+### for BackEnd
+
 - `defaultModel`
 - `defaultController`
 - `defaultRoute`
 - `defaultMethod`
 
+### for FronEnd
+
+- `defaultStateEffeactBYid`
+
 - and Some Updated features will be added in Future Releases
 
 
 ## Releases
+
+### v2.0.0 - 24 July 2024
+
+- 2nd Major  Release
+- Extension added to VScode MarketPlace
+- Adding Futures for ReactJS (frontend)
 
 ### v1.0.0 - 19 July 2024
 
