@@ -60,7 +60,7 @@
         "const [${1:State}, ${2:SetState}] = useState([]);",
         "",
         "useEffect(() => {",
-        "  axios.get(`http://localhost:5000/company/UserCompany/${3:id}`)",
+        "  axios.get(`http://localhost:5000/basePath/subPath/${3:id}`)",
         "    .then(res => ${2:SetState}(res.data.Result))",
         "    .catch(err => console.log(err));",
         "}, []);"
